@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- space grotesk font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/script.js" defer></script>
+    <title>Arbin Bhasima - Positivus</title>
+  </head>
+  <body class="dark-maode">
+    <!-- landing section -->
+    <section class="landing-page">
+      <!-- header -->
+      <header class="header">
+        <a href="#" class="logo-link">
+          <img src="./images/full-logo.svg" alt="Positivus Logo" class="logo" />
+        </a>
+
+        <!-- desktop  nav links -->
+        <nav class="desktop-nav">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-list-item">About Us</a></li>
+            <li><a href="#" class="nav-list-item">Services</a></li>
+            <li><a href="#" class="nav-list-item">Use Cases</a></li>
+            <li><a href="#" class="nav-list-item">Pricing</a></li>
+            <li><a href="#" class="nav-list-item">Blog</a></li>
+
+            <li>
+              <button class="theme-toggle-btn theme-toggle" aria-label="Toggle theme">
+                <span class="toggle-track">
+                  <span class="toggle-thumb">
+                    <span class="icon sun-icon">🔆</span>
+                    <span class="icon moon-icon">🌙</span>
+                  </span>
+                </span>
+              </button>
+
+            </li>
+
+            <li>
+              <a href="#"  class="btn btn-outline">
+                Request a Quote
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Hamburger Button -->
+
+        <button id="btn-hamburger" class="hamburger-btn" aria-label="Open Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div id="overlay" class="overlay"></div>
+
+        <aside id="sidebar" class="sidebar-drawer">
+          <button
+            id="btn-sidebar-close"
+            class="sidebar-close-btn"va
+            aria-label="Close Menu"
+          >
+            X
+          </button>
+
+          <nav class="sidebar-nav">
+            <ul class="sidebar-nav-list">
+              <li><a href="#" class="sidebar-link">About Us</a></li>
+              <li><a href="#" class="sidebar-link">Services</a></li>
+              <li><a href="#" class="sidebar-link">Use Cases</a></li>
+              <li><a href="#" class="sidebar-link">Pricing</a></li>
+              <li><a href="#" class="sidebar-link">Blog</a></li>
+              <li>
+                <div class="sidebar-theme-wrapper">
+                  <button class="theme-toggle-btn theme-toggle" aria-label="Toggle Theme">
+                    <span class="toggle-track">
+                      <span class="toggle-thumb">
+                        <span class="icon sun-icon">🔆</span>
+                        <span class="icon moon-icon">🌙</span>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="btn btn-outline"> 
+                  Request a Quote
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </header>
+
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="hero-text-container">
+          <h1 class="hero-title">
+            Navigating the digital landscape for success
+          </h1>
+          <p class="hero-description">
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+          <a href="#" class="btn btn-secondary">
+              Book a Conversation
+          </a>
+        </div>
+
+        <div class="hero-image-container">
+          <img
+            src="./images/hero-image.svg"
+            class="hero-image"
+            alt="Marketing illustration"
+          />
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
