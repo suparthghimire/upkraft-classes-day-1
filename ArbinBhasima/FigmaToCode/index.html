@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- space gortesk font -->
+    <!-- space grotesk font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
     <script src="./scripts/script.js" defer></script>
     <title>Arbin Bhasima - Positivus</title>
   </head>
-  <body>
+  <body class="dark-mode">
     <!-- landing section -->
     <section class="landing-page">
       <!-- header -->
@@ -34,6 +34,19 @@
             <li><a href="#" class="nav-list-item">Use Cases</a></li>
             <li><a href="#" class="nav-list-item">Pricing</a></li>
             <li><a href="#" class="nav-list-item">Blog</a></li>
+
+            <li>
+              <button class="theme-toggle-btn theme-toggle" aria-label="Toggle theme">
+                <span class="toggle-track">
+                  <span class="toggle-thumb">
+                    <span class="icon sun-icon">🔆</span>
+                    <span class="icon moon-icon">🌙</span>
+                  </span>
+                </span>
+              </button>
+
+            </li>
+
             <li>
               <a href="#"  class="btn btn-outline">
                 Request a Quote
@@ -55,7 +68,7 @@
         <aside id="sidebar" class="sidebar-drawer">
           <button
             id="btn-sidebar-close"
-            class="sidebar-close-btn"
+            class="sidebar-close-btn"va
             aria-label="Close Menu"
           >
             X
@@ -68,6 +81,18 @@
               <li><a href="#" class="sidebar-link">Use Cases</a></li>
               <li><a href="#" class="sidebar-link">Pricing</a></li>
               <li><a href="#" class="sidebar-link">Blog</a></li>
+              <li>
+                <div class="sidebar-theme-wrapper">
+                  <button class="theme-toggle-btn theme-toggle" aria-label="Toggle Theme">
+                    <span class="toggle-track">
+                      <span class="toggle-thumb">
+                        <span class="icon sun-icon">🔆</span>
+                        <span class="icon moon-icon">🌙</span>
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </li>
               <li>
                 <a href="#" class="btn btn-outline"> 
                   Request a Quote

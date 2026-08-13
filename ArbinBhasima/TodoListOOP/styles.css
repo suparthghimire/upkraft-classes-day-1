@@ -1,0 +1,38 @@
+#todo-list{
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li{ 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#todo-list p{
+    margin: 0; 
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.actions{
+    margin-top: 12px;
+}
+
+.btn{
+    background-color: cyan;
+    color: black;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+
+.btn:hover{
+    background-color: black;
+    color: cyan;
+    border: 2px solid cyan;
+}
