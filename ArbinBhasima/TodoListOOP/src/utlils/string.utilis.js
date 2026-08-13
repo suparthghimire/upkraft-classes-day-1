@@ -14,4 +14,7 @@ export { upperCaseFirstLetter, lowerCaseFirstLetter };
 // import * as str from "./string.utilis.js";
 // default export default import
 // named export and named import  
-// named export and default import as *
+// named export and default import as */
+
+
+// equivalent code 
