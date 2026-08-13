@@ -1,0 +1,152 @@
+:root {
+    --bg-page: #f3f4f6;
+    --bg-card: #ffffff;
+    --text-main: #1f2937;
+    --input-bg: #ffffff;
+    --input-border: #ccc;
+    --task-bg: #d2e9dd;
+    --task-border: #d1b1bc;
+    --task-hover: #e5e7eb;
+    
+    --completed-bg: #dcfce7;
+    --completed-border: #bbf7d0;
+    --completed-text: #15803d;
+}
+
+body.dark {
+    --bg-page: #0f172a;          
+    --bg-card: #1e293b;          
+    --text-main: #f8fafc;        
+    --input-bg: #334155;
+    --input-border: #475569;
+    --task-bg: #334155;          
+    --task-border: #475569;
+    --task-hover: #475569;
+
+    --completed-bg: #064e3b;     
+    --completed-border: #047857;
+    --completed-text: #4ade80;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.todo-app {
+    background-color: var(--bg-card);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 60vh;
+    transition: background-color 0.3s;
+}
+
+.app-header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--text-main);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--input-bg);
+    color: var(--text-main);
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.todo-list li {
+    background-color: var(--task-bg);
+    border: 1px solid var(--task-border);
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.todo-list li:hover {
+    background-color: var(--task-hover);
+}
+
+.todo-list li p {
+    color: var(--text-main);
+}
+
+.todo-list li.completed {
+    background-color: var(--completed-bg);
+    border-color: var(--completed-border); 
+}
+
+.todo-list li.completed p {
+    font-weight: 700;               
+    text-decoration: line-through;  
+    text-decoration-thickness: 3px;  
+    text-decoration-color: var(--completed-text);  
+    color: var(--completed-text);
+}
+
+.btn-danger {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;    
+    width: 100%;
+}
+
+.theme-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--task-border);
+    color: var(--text-main);
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    display: block;
+    margin: 0 auto 15px auto;
+}

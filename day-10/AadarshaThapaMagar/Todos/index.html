@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+    <main class="todo-app">
+        
+        <header class="app-header">
+            <h1>Todos</h1>
+            <button type="button" id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+        </header>
+
+        <form id="todo-form" class="todo-form">
+            
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="todo-input" 
+                    placeholder="Add a new task..." 
+                    required
+                >
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+        </form>
+
+        <!-- Todo List Section -->
+        <ul id="todo-list" class="todo-list">
+        </ul>
+
+        <footer class="app-footer">
+            <button type="button" id="clear-all" class="btn btn-danger">Clear All</button>
+        </footer>
+
+    </main>
+
+</body>
+</html>

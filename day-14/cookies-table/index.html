@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Cookies Management</h1>
+    
+    <div>
+        <input type="text" id="cookieKey" placeholder="Enter cookie name">
+        <input type="text" id="cookieValue" placeholder="Enter cookie value">
+        <button onclick="addCookie()">Add Cookie</button>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Cookie Name</th>
+                <th>Cookie Value</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

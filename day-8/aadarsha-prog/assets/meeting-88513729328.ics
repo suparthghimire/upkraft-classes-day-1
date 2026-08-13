@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Asia/Kathmandu
+LAST-MODIFIED:20260721T092906Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Asia/Kathmandu
+X-LIC-LOCATION:Asia/Kathmandu
+BEGIN:STANDARD
+TZNAME:+0545
+TZOFFSETFROM:+0545
+TZOFFSETTO:+0545
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260731T012653Z
+DTSTART;TZID=Asia/Kathmandu:20260721T064500
+DTEND;TZID=Asia/Kathmandu:20260721T094500
+SUMMARY:Upkraft | AI Software Developer
+UID:EVENTAkP3yFi7SPuG1VO-AcxaVw@zoom.us
+DESCRIPTION:Upkraft AI is inviting you to a scheduled Zoom meeting.\nJoin
+  Zoom Meeting\nhttps://us06web.zoom.us/j/88513729328?pwd=4CG4YunQJk1w5wD
+ M2HCLSlHeN9sMAy.1\n\nMeeting chat link\nhttps://us06web.zoom.us/launch/j
+ c/88513729328\n\nView meeting insights\nhttps://us06web.zoom.us/launch/e
+ dl?muid=6e694021-66f7-4296-bf1b-2bc6e148b019\n\nMeeting ID: 885 1372 932
+ 8\nPasscode: 838541\n\n---\n\nOne tap mobile\n+15074734847\,\,8851372932
+ 8#\,\,\,\,*838541# US\n+15642172000\,\,88513729328#\,\,\,\,*838541# US\n
+ \n\n---\n\nJoin by SIP\n• 88513729328@zoomcrc.com\n\nJoin instructions\n
+ https://us06web.zoom.us/meetings/88513729328/invitations?signature=r-Vt8
+ R2qyUlkmC7KQlu4iiFUO-8t72ynH5rNaXdSwZA\n\n
+TZID:Asia/Kathmandu
+LOCATION:https://us06web.zoom.us/j/88513729328?pwd=4CG4YunQJk1w5wDM2HCLSl
+ HeN9sMAy.1
+RRULE:FREQ=WEEKLY;UNTIL=20261016T181400Z;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
